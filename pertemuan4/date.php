@@ -2,7 +2,7 @@
 // Chairunissa Putri Koswara
 // 203040048
 // github.com/Chairunissa/pw2021_203040048.git
-// Pertemuan 1 (18 Februari 2021)
+// Pertemuan 4 (18 Februari 2021)
 // belajar function
 ?>
 
