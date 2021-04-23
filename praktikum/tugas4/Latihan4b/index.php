@@ -47,7 +47,7 @@ $jam = query("SELECT * FROM jam")
                     <tr>
                         <td><?= $i; ?></td>
                         <td>
-                        <img src="assets/img/<?= $jm["gambar"]; ?>">
+							<img src="assets/img/<?= $jm["gambar"]; ?>">
                         </td>
                         <td><?= $jm["nama"]; ?></td>
                         <td><?= $jm["merk"]; ?></td>

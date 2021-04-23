@@ -33,12 +33,13 @@ $jam = query("SELECT * FROM jam")
                 <thead>
                     <tr class="atas grey darken-4 white-teks">
                         <th>No</th>
-                        <th>Picture</th>
                         <th>Name</th>
+                        <th>Picture</th>
                         <th>Merk</th>
                         <th>Price</th>
                         <th>Color</th>
                         <th>Quantity</th>
+						<th> </th>
                     </tr>
                 </thead>
             <tbody>
@@ -46,10 +47,10 @@ $jam = query("SELECT * FROM jam")
                 <?php foreach($jam as $jm) : ?>
                     <tr>
                         <td><?= $i; ?></td>
-                        <td><?= $jm["nama"]; ?></td>
                         <td>
                             <img src="assets/img/<?= $jm["gambar"]; ?>">
                         </td>
+						<td><?= $jm["nama"]; ?></td>
                         <td><?= $jm["merk"]; ?></td>
                         <td><?= $jm["harga"]; ?></td>
                         <td><?= $jm["color"]; ?></td>
