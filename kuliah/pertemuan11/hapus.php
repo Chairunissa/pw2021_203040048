@@ -1,4 +1,14 @@
 <?php
+/*
+    Chairunissa Putri Koswara
+    203040048
+    https://github.com/Chairunissa/pw2021_203040048
+    Pertemuan 11 (30 April 2021)
+    Delete, Update, Searching Data
+*/
+?>
+
+<?php
 require 'functions.php';
 
 // jika tidak ada id di url
