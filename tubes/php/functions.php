@@ -3,11 +3,8 @@
 Chairunissa Putri Koswara
 203040048
 SHIFT Jum'at 10.00 - 11.00
-pertemuan 6
+pertemuan 7
 */
-
-use JetBrains\PhpStorm\NoReturn;
-
 ?>
 
 <?php

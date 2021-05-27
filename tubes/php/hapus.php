@@ -3,7 +3,7 @@
 Chairunissa Putri Koswara
 203040048
 SHIFT Jum'at 10.00 - 11.00
-pertemuan 6
+pertemuan 7
 */
 ?>
 
@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
 require './functions.php';
 
 $id = $_GET["id"];
-if ( hapus($id) > 0) {
+if (hapus($id) > 0) {
     echo "<script>
             alert('Data berhasil dihapus!');
             document.location.href = 'admin.php';
