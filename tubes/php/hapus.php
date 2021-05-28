@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit;
 }
-require './functions.php';
+require 'functions.php';
 
 $id = $_GET["id"];
 if (hapus($id) > 0) {

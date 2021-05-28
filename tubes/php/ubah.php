@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit;
 }
-require './functions.php';
+require 'functions.php';
 //ambil data di URL
 $id = $_GET["id"];
 

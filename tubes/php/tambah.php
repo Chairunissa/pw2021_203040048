@@ -5,6 +5,13 @@ Chairunissa Putri Koswara
 SHIFT Jum'at 10.00 - 11.00
 pertemuan 7
 */
+
+session_start();
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit;
+}
+require 'functions.php';
 ?>
 
 <!DOCTYPE html>
