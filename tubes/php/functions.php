@@ -3,11 +3,9 @@
 Chairunissa Putri Koswara
 203040048
 SHIFT Jum'at 10.00 - 11.00
-pertemuan 7
+tubes
 */
-?>
 
-<?php
 //function melakukan connect ke database
 $conn = mysqli_connect("localhost", "root", "", "pw_tubes_203040048");
 function koneksi()
@@ -198,4 +196,3 @@ function registrasi($data)
 
     return mysqli_affected_rows($conn);
 }
-?>

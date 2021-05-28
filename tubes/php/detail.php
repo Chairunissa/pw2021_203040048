@@ -3,11 +3,9 @@
 Chairunissa Putri Koswara
 203040048
 SHIFT Jum'at 10.00 - 11.00
-pertemuan 7
+tubes
 */
-?>
 
-<?php
 //untuk mengecek apakah ada id yang dikiri, jika tidak kembali ke index.php
 if (!isset($_GET['id'])) {
     header("Location: ../index.php");
