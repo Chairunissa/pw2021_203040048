@@ -85,29 +85,6 @@ if (isset($_POST['tambah'])) {
         </div>
     </div>
 
-    <?php
-    session_start();
-    if (!isset($_SESSION['username'])) {
-        header("Location: login.php");
-        exit;
-    }
-    require './functions.php';
-
-    if (isset($_POST["tambah"])) {
-        if (tambah($_POST) > 0) {
-            echo "<script>
-                    alert('Data berhasil ditambahkan!');
-                    document.location.href = 'admin.php';
-            </script>";
-        } else {
-            echo "<script>
-                    alert('Data gagal ditambahkan!');
-                    document.location.href = 'admin.php'
-            </script>";
-        }
-    }
-
-    ?>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>
 </body>
